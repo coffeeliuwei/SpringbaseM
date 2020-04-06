@@ -12,13 +12,13 @@
 	<url>http://maven.apache.org</url>
 
 	<properties>
-		<spring.version>4.0.5.RELEASE</spring.version>
+		<spring.version>4.3.14.RELEASE</spring.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.version>1.8</java.version>
-		<jackson.version>2.3.1</jackson.version>
+		<jackson.version>2.9.9</jackson.version>
 		<mybatis.version>3.2.5</mybatis.version>
 		<mybatis-spring.version>1.2.2</mybatis-spring.version>
-		<tomcat-jdbc.version>7.0.52</tomcat-jdbc.version>
+		<tomcat-jdbc.version>8.0.50</tomcat-jdbc.version>
 		<jdbc.driver.groupId>mysql</jdbc.driver.groupId>
 		<jdbc.driver.artifactId>mysql-connector-java</jdbc.driver.artifactId>
 		<jdbc.driver.version>5.1.41</jdbc.driver.version>
