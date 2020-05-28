@@ -2,6 +2,8 @@ package com.coffee.controller;
 import java.util.List;
 import javax.annotation.Resource;
 import javax.servlet.http.HttpSession;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -13,6 +15,7 @@ import com.coffee.service.stuService;
 @Controller
 public class stuController {
 	@Resource
+	//@Autowired
 	stuService service;
 	@Resource
 	HttpSession session;
@@ -35,7 +38,7 @@ public class stuController {
 			// return ResponseEntity.status(404).build();
 		}
 		model.addAttribute("stu", stu);
-		return "info1";
+		return "info1";///WEB-INF/jsp/info1.jsp
 	}
 /**
  * http://localhost:8080/SpringbaseM/app/queryfromto?from=20200001&to=20200005

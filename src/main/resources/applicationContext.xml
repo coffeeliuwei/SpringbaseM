@@ -33,7 +33,7 @@
         <property name="configLocation" value="classpath:/mybatis/config.xml"/>
         
     </bean>
-    
+    <!--SqlSession  -->
     <bean id="sqlSessionTemplate" class="org.mybatis.spring.SqlSessionTemplate">
        <constructor-arg index="0" ref="sqlSessionFactory" />
        <constructor-arg index="1" value="BATCH" />

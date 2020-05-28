@@ -14,4 +14,6 @@
   <typeAliases>
   <typeAlias alias="Student" type="com.coffee.entity.Student"/>
   </typeAliases>
+  
+  
 </configuration>

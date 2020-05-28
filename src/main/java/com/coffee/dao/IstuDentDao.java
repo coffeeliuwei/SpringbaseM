@@ -10,5 +10,6 @@ import com.coffee.entity.Student;
 @Repository
 public interface IstuDentDao {
   public Student getStudent(int id);
+  
   public List<Student> getStufromto(@Param("from")int from,@Param("to")int to);
 }
